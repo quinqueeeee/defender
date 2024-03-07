@@ -1,0 +1,314 @@
+@media (max-width: 1350px) {
+	.book__content-main {
+
+		::after {
+			display: none;
+			background: initial;
+		}
+	}
+
+
+	.lawyers__cards {
+		display: flex;
+		gap: 32px;
+		// margin-right: -50px;
+		overflow: hidden;
+	}
+
+	.lawyers__container {
+		padding-right: 0;
+	}
+
+	.lawyers__card-img {
+		max-width: initial;
+	}
+
+	.lawyers__card {
+
+		&:hover,
+		&:focus,
+		&:active {
+			display: none;
+		}
+	}
+
+
+
+
+
+	.material__card {
+		overflow: hidden;
+		flex-shrink: 0;
+	}
+
+	.material__container {
+		padding-right: 20px;
+	}
+
+	.aboutus__card {
+		flex-shrink: 0;
+		overflow: hidden;
+	}
+
+	.aboutus__cards {
+		overflow: hidden;
+	}
+
+	.aboutus__container {
+		padding-right: 20px;
+	}
+}
+
+
+@media (max-width: 1130px) {
+	.footer__text {
+		display: none;
+	}
+
+}
+
+
+@media (max-width: 834px) {
+	.nav__list {
+		display: none;
+	}
+
+	.header__btn {
+		margin-bottom: 100px;
+	}
+
+	.header__content {
+		padding-top: 66px;
+	}
+
+	.nav {
+		display: flex;
+		padding: 18px 0;
+		align-items: center;
+	}
+
+	.header__burger {
+		display: block;
+	}
+
+	.services__cards {
+		grid-template-columns: repeat(6, 1fr);
+	}
+
+	.services__card {
+		grid-column: span 3;
+	}
+
+	.page__services {
+		padding: 60px 0;
+	}
+
+	.lawyers__container {
+		padding-right: 0;
+	}
+
+
+	.page__aboutus {
+		padding: 60px 0;
+	}
+
+	.page__material {
+		padding: 60px 0;
+	}
+
+
+	.footer__center-list-center {
+		display: none;
+	}
+
+	.page__footer {
+		padding: 60px 0 0 0;
+	}
+
+	*:hover {
+		pointer-events: none;
+	}
+}
+
+@media (max-width: 500px) {
+	._container {
+		max-width: 1360px;
+		padding: 0 20px;
+	}
+
+	.nav-btn-3 {
+		display: none;
+	}
+
+	.header__nav-item-2 {
+		display: none;
+	}
+
+	.header__subtitle {
+		font-weight: 300;
+		font-size: 18px;
+		line-height: 120%;
+		text-transform: uppercase;
+	}
+
+	.header__text {
+		font-size: 16px;
+		line-height: 150%;
+		padding-bottom: 32px;
+	}
+
+	.header__title {
+		font-weight: 600;
+		font-size: 30px;
+		line-height: 150%;
+		text-transform: uppercase;
+		color: #4f8ff0;
+	}
+
+	.header__btn {
+		margin-bottom: 60px;
+	}
+
+	.page__services {
+		padding: 50px 0;
+	}
+
+	.services__text {
+		padding-top: 16px;
+	}
+
+	.services__content {
+		padding-bottom: 24px;
+	}
+
+	.services__cards {
+		// margin-right: -20px;
+		display: block;
+		padding-bottom: 20px;
+		display: flex;
+		overflow: hidden;
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		// flex-direction: column;
+		gap: 30px;
+	}
+
+	.services__container {
+		padding-right: 20px;
+	}
+
+	.services__card-content {
+		width: 230px;
+		height: 215px;
+		padding: 0;
+	}
+
+
+
+
+	.book__buttons {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 15px;
+	}
+
+	.page__book {
+		padding: 40px 0;
+	}
+
+	.page__lawyers {
+		padding: 40px 0;
+	}
+
+	.lawyers__container {
+		padding-right: 0;
+	}
+
+	.lawyers__text {
+		padding: 24px 0;
+	}
+
+	.page__aboutus {
+		padding: 40px 0;
+	}
+
+	.page__material {
+		padding: 40px 0;
+	}
+
+	.aboutus__buttons {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		gap: 16px;
+	}
+
+	.aboutus__cards {
+		padding: 24px 0;
+	}
+
+	.aboutus__swiper {
+		display: none;
+	}
+
+	.material__header {
+		padding-bottom: 24px;
+	}
+
+	.page__footer {
+		padding: 40px 0 0 0;
+	}
+
+	.footer__top-title {
+		text-align: center;
+	}
+
+	.footer__top {
+		justify-content: center;
+		align-items: center;
+		padding-bottom: 24px;
+	}
+
+	.footer__center {
+		padding-top: 24px;
+		padding-bottom: 40px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.footer__center-list-left {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: start;
+		padding-bottom: 40px;
+	}
+
+	.footer__bot {
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+		// display: flex;
+		flex-direction: column;
+		padding: 16px 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 834px) {}
+
+@media (max-width: 390px) {}

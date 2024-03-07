@@ -1,0 +1,138 @@
+.page__lawyers {
+	padding: 80px 0;
+}
+
+.lawyers__content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.lawyers__title {
+	font-weight: 800;
+	font-size: 28px;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+	position: relative;
+
+	&::after {
+		content: '';
+		position: absolute;
+		top: 100%;
+		left: 35%;
+		width: 50px;
+		height: 3px;
+		background: var(--blue);
+	}
+}
+
+.lawyers__text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 120%;
+	text-align: center;
+	padding-bottom: 48px;
+	max-width: 920px;
+	padding-top: 24px;
+}
+
+.lawyers__cards {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	gap: 24px;
+}
+
+.lawyers__card {
+	transition: all 0.3s ease 0s;
+	box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	grid-column: 3 span;
+
+
+	&:hover {
+		display: inline-block;
+		vertical-align: middle;
+		-webkit-transform: perspective(1px) translateZ(0);
+		transform: perspective(1px) translateZ(0);
+		-webkit-transition-duration: 0.3s;
+		transition-duration: 0.3s;
+		-webkit-transition-property: transform;
+		transition-property: transform;
+		cursor: pointer;
+
+		img {
+			display: none;
+		}
+
+		.lawyers__card-text-1 {
+			display: block;
+			padding-bottom: 40px;
+		}
+
+		.lawyers__card-text-2 {
+			display: block;
+		}
+
+		.lawyers__card-title {
+			padding-bottom: 10px;
+		}
+
+		.lawyers__card-text {
+			padding-bottom: 40px;
+		}
+
+		transition: all 0.3s ease 0s;
+		background: var(--white);
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		justify-content: center;
+	}
+
+	&:hover,
+	&:focus,
+	&:active {
+		-webkit-transform: scale(1.2);
+		transform: scale(1.2);
+	}
+}
+
+
+
+.lawyers__card-text-2 {
+	display: none;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 120%;
+}
+
+.lawyers__card-text-1 {
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 120%;
+	display: none;
+}
+
+.lawyers__card-img {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.lawyers__card-title {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 120%;
+}
+
+.lawyers__card-text {
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 120%;
+	text-transform: lowercase;
+}
+
+.lawyers__card-content {
+	padding: 24px 16px;
+	text-align: center;
+}

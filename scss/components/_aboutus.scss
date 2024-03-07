@@ -1,0 +1,100 @@
+.page__aboutus {
+	padding: 80px 0;
+	background: url("../img/aboutus/back.jpg");
+	background-size: cover;
+	background-position: right;
+}
+
+.aboutus__content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.aboutus__swiper {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+}
+
+.aboutus__swiper-line {
+	border: 1px solid var(--blue);
+	transform: rotate(-64deg);
+	width: 28px;
+}
+
+.aboutus__title {
+	font-weight: 800;
+	font-size: 28px;
+	text-transform: uppercase;
+	position: relative;
+	padding-bottom: 10px;
+
+	&::after {
+		content: '';
+		position: absolute;
+		top: 100%;
+		left: 0;
+		width: 50px;
+		height: 3px;
+		background: var(--blue);
+	}
+}
+
+.aboutus__cards {
+	padding-top: 48px;
+	display: flex;
+	gap: 24px;
+	padding-bottom: 32px;
+}
+
+.aboutus__card {
+	display: flex;
+	transition: all 0.3s ease 0s;
+	box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.25);
+	cursor: pointer;
+	// flex: 0 1 50%;
+}
+
+.aboutus__card-content {
+	padding: 32px;
+}
+
+.aboutus__card-top {
+	padding-bottom: 16px;
+	display: flex;
+	gap: 24px;
+}
+
+.aboutus__card-top-content {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	padding: 14px 0;
+}
+
+.aboutus__card-top-subtitle {
+	font-weight: 300;
+	line-height: 120%;
+}
+
+.aboutus__card-top-title {
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.aboutus__card-bot-text {
+	font-weight: 400;
+
+	max-width: 584px;
+}
+
+.aboutus__buttons {
+	display: flex;
+	gap: 24px;
+}
+
+.aboutus__btn-1 {
+	color: var(--black);
+	background: #e6e6e6;
+}

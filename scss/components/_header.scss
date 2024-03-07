@@ -1,0 +1,49 @@
+.page__header {
+	background-image: linear-gradient(rgba(34, 34, 34, 0.64), rgba(34, 34, 34, 0.64)), url("../img/header/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.header__container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.header__content {
+	padding-top: 9.375rem;
+	color: var(--white);
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.header__subtitle {
+	font-weight: 300;
+	font-size: 1.875rem;
+	text-transform: uppercase;
+	padding-bottom: 0.5rem;
+}
+
+.header__title {
+	font-weight: 600;
+	font-size: 3.5rem;
+	text-transform: uppercase;
+	color: var(--blue);
+	padding-bottom: 0.5rem;
+}
+
+.header__text {
+	font-weight: 400;
+	font-size: 1.25rem;
+	line-height: 120%;
+	max-width: 68.125rem;
+	padding-bottom: 3rem;
+}
+
+.header__btn {
+	margin-bottom: 192px;
+}
