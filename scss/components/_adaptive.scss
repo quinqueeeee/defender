@@ -23,14 +23,6 @@
 		max-width: initial;
 	}
 
-	.lawyers__card {
-
-		&:hover,
-		&:focus,
-		&:active {
-			display: none;
-		}
-	}
 
 
 
@@ -45,18 +37,22 @@
 		padding-right: 20px;
 	}
 
-	.aboutus__card {
-		flex-shrink: 0;
-		overflow: hidden;
-	}
+	// .aboutus__card {
+	// 	flex-shrink: 0;
+	// 	overflow: hidden;
+	// }
 
-	.aboutus__cards {
-		overflow: hidden;
-	}
+	// .aboutus__cards {
+	// 	overflow: hidden;
+	// }
 
-	.aboutus__container {
-		padding-right: 20px;
-	}
+	// .aboutus__container {
+	// 	padding-right: 20px;
+	// }
+
+	// *:hover {
+	// 	pointer-events: none;
+	// }
 }
 
 
@@ -125,9 +121,6 @@
 		padding: 60px 0 0 0;
 	}
 
-	*:hover {
-		pointer-events: none;
-	}
 }
 
 @media (max-width: 500px) {

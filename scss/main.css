@@ -649,17 +649,18 @@ h6 {
 }
 
 .lawyers__card {
-  transition: all 0.3s ease 0s;
   box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
-  grid-column: 3 span;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  height: initial;
+  transition: all 0.3s ease 0s;
+}
+.lawyers__card:not(:last-child) {
+  margin-right: 20px;
 }
 .lawyers__card:hover {
-  display: inline-block;
-  vertical-align: middle;
-  transform: perspective(1px) translateZ(0);
-  transition-duration: 0.3s;
-  transition-property: transform;
   cursor: pointer;
   transition: all 0.3s ease 0s;
   background: var(--white);
@@ -683,9 +684,6 @@ h6 {
 }
 .lawyers__card:hover .lawyers__card-text {
   padding-bottom: 40px;
-}
-.lawyers__card:hover, .lawyers__card:focus, .lawyers__card:active {
-  transform: scale(1.2);
 }
 
 .lawyers__card-text-2 {
@@ -770,7 +768,7 @@ h6 {
 .aboutus__cards {
   padding-top: 48px;
   display: flex;
-  gap: 24px;
+  gap: 70px;
   padding-bottom: 32px;
 }
 
@@ -779,6 +777,8 @@ h6 {
   transition: all 0.3s ease 0s;
   box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.25);
   cursor: pointer;
+  flex-shrink: 0;
+  width: 648px;
 }
 
 .aboutus__card-content {
@@ -1113,24 +1113,11 @@ h6 {
   .lawyers__card-img {
     max-width: initial;
   }
-  .lawyers__card:hover, .lawyers__card:focus, .lawyers__card:active {
-    display: none;
-  }
   .material__card {
     overflow: hidden;
     flex-shrink: 0;
   }
   .material__container {
-    padding-right: 20px;
-  }
-  .aboutus__card {
-    flex-shrink: 0;
-    overflow: hidden;
-  }
-  .aboutus__cards {
-    overflow: hidden;
-  }
-  .aboutus__container {
     padding-right: 20px;
   }
 }
@@ -1180,9 +1167,6 @@ h6 {
   }
   .page__footer {
     padding: 60px 0 0 0;
-  }
-  *:hover {
-    pointer-events: none;
   }
 }
 @media (max-width: 500px) {

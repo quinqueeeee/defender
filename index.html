@@ -244,8 +244,18 @@
                         заполнение шаблона</p>
                 </div>
 
-                <ul class="lawyers__cards">
-                    <li class="lawyers__card">
+
+
+
+
+
+
+
+
+
+
+                <swiper-container slides-per-view="3" speed="500" loop="true" css-mode="true">
+                    <swiper-slide class='lawyers__card'>
                         <img src="./img/lawyers/1.png" alt="" class="lawyers__card-img">
                         <div class="lawyers__card-content">
                             <h2 class="lawyers__card-title">Горюнова Полина Алексеевна</h2>
@@ -257,8 +267,8 @@
                             </p>
                             <p class="lawyers__card-text-2">12 лет юридической практики</p>
                         </div>
-                    </li>
-                    <li class="lawyers__card">
+                    </swiper-slide>
+                    <swiper-slide class='lawyers__card'>
                         <img src="./img/lawyers/2.png" alt="" class="lawyers__card-img">
                         <div class="lawyers__card-content">
                             <h2 class="lawyers__card-title">Миронов Александр Германович</h2>
@@ -270,8 +280,8 @@
                             </p>
                             <p class="lawyers__card-text-2">12 лет юридической практики</p>
                         </div>
-                    </li>
-                    <li class="lawyers__card">
+                    </swiper-slide>
+                    <swiper-slide class='lawyers__card'>
                         <img src="./img/lawyers/3.png" alt="" class="lawyers__card-img">
                         <div class="lawyers__card-content">
                             <h2 class="lawyers__card-title">Архипов Максим Константинович</h2>
@@ -283,8 +293,8 @@
                             </p>
                             <p class="lawyers__card-text-2">12 лет юридической практики</p>
                         </div>
-                    </li>
-                    <li class="lawyers__card">
+                    </swiper-slide>
+                    <swiper-slide style='width: 312px;' class='lawyers__card'>
                         <img src="./img/lawyers/4.png" alt="" class="lawyers__card-img">
                         <div class="lawyers__card-content">
                             <h2 class="lawyers__card-title">Шестакова Елизавета Егоровна</h2>
@@ -296,8 +306,8 @@
                             </p>
                             <p class="lawyers__card-text-2">12 лет юридической практики</p>
                         </div>
-                    </li>
-                </ul>
+                    </swiper-slide>
+                </swiper-container>
             </div>
         </section>
 
@@ -331,8 +341,14 @@
                 </div>
 
 
-                <ul class="aboutus__cards">
-                    <li class="aboutus__card">
+
+
+
+
+
+
+                <swiper-container class="aboutus__cards">
+                    <swiper-slide class="aboutus__card">
                         <div class="aboutus__card-content">
                             <div class="aboutus__card-top">
                                 <img src="./img/aboutus/1.svg" alt="" class="aboutus__card-top-img">
@@ -343,14 +359,16 @@
                             </div>
                             <div class="aboutus__card-bot">
                                 <p class="aboutus__card-bot-text">Многие думают, что Lorem Ipsum - взятый с потолка
-                                    псевдо-латинский набор слов, но это не совсем так. Его корни уходят в один фрагмент
+                                    псевдо-латинский набор слов, но это не совсем так. Его корни уходят в один
+                                    фрагмент
                                     классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард
-                                    МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно
+                                    МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял
+                                    одно
                                     из самых странных слов ...</p>
                             </div>
                         </div>
-                    </li>
-                    <li class="aboutus__card">
+                    </swiper-slide>
+                    <swiper-slide class="aboutus__card">
                         <div class="aboutus__card-content">
                             <div class="aboutus__card-top">
                                 <img src="./img/aboutus/2.svg" alt="" class="aboutus__card-top-img">
@@ -360,14 +378,17 @@
                                 </div>
                             </div>
                             <div class="aboutus__card-bot">
-                                <p class="aboutus__card-bot-text">Если вам нужен Lorem Ipsum для серьёзного проекта, вы
-                                    наверняка не хотите какой-нибудь шутки, скрытой в середине абзаца. Также все другие
-                                    известные генераторы Lorem Ipsum используют один и тот же текст, который они просто
+                                <p class="aboutus__card-bot-text">Если вам нужен Lorem Ipsum для серьёзного проекта,
+                                    вы
+                                    наверняка не хотите какой-нибудь шутки, скрытой в середине абзаца. Также все
+                                    другие
+                                    известные генераторы Lorem Ipsum используют один и тот же текст, который они
+                                    просто
                                     повторяют, пока не достигнут нужный объём.</p>
                             </div>
                         </div>
-                    </li>
-                </ul>
+                    </swiper-slide>
+                </swiper-container>
 
                 <div class="aboutus__buttons">
                     <button class="aboutus__btn _button _btn">Все отзывы</button>
@@ -450,7 +471,7 @@
                 <p class="footer__text">Предварительные выводы неутешительны: синтетическое тестирование, а также свежий
                     взгляд на привычные вещи — безусловно открывает новые горизонты для экономической целесообразности
                     принимаемых решений.</p>
-            </div class='footer__top'>
+            </div>
 
             <div class="footer__center">
                 <ul class="footer__center-list-left">
@@ -476,14 +497,14 @@
 
 
 
-                <ul class="footer__center-list-center">
-                    <a href="" class="footer__center-list-center-item-link">Услуги</a>
+                <div class="footer__center-list-center">
+                    <a href="#" class="footer__center-list-center-item-link">Услуги</a>
                     <a href="" class="footer__center-list-center-item-link">О компании</a>
-                    <a href="" class="footer__center-list-center-item-link">Сертификаты</a>
-                    <a href="" class="footer__center-list-center-item-link">Отзывы</a>
-                    <a href="" class="footer__center-list-center-item-link">Полезные материалы</a>
-                    <a href="" class="footer__center-list-center-item-link">Благотворительность</a>
-                </ul>
+                    <a href="#" class="footer__center-list-center-item-link">Сертификаты</a>
+                    <a href="#" class="footer__center-list-center-item-link">Отзывы</a>
+                    <a href="#" class="footer__center-list-center-item-link">Полезные материалы</a>
+                    <a href="#" class="footer__center-list-center-item-link">Благотворительность</a>
+                </div>
 
 
 
@@ -515,6 +536,10 @@
             </div>
         </div>
     </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 </body>
 
 </html>
